@@ -68,7 +68,6 @@ a {
   }
 }
 
-/* CSS */
 .btn {
   margin: 10px;
   padding: 15px 30px;
@@ -96,7 +95,6 @@ a {
 
 .btn:hover {
   background-position: right center;
-  /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
@@ -133,7 +131,7 @@ a {
   padding: 0.4rem;
   margin-bottom: 1rem;
 }
-
+/* FEATURE */
 #features {
   padding: 1rem;
   margin-top: 3rem;
@@ -165,16 +163,15 @@ a {
   margin-bottom: 0.5rem;
 }
 
+/* HOW IT WORK */
+
 #how-it-work {
   padding: 3rem;
   margin: auto;
   text-align: center;
 }
 
-#how-it-work #video {
-  width: 600px;
-  height: 340px;
-}
+/* PRICING */
 
 #pricing {
   display: flex;
@@ -186,7 +183,6 @@ a {
 
 .price-box {
   border: solid #333 3px;
-  border-radius: 2px;
   text-align: center;
   width: 320px;
   height: 350px;
@@ -241,11 +237,6 @@ a {
   padding: 0.5rem 1rem;
 }
 
-#fcs {
-  text-decoration: underline;
-  color: #333;
-}
-
 /* TABLET AND SMARTPHONE */
 @media only screen and (max-width: 800px) {
   #navbar {
@@ -272,11 +263,6 @@ a {
 
   #how-it-work {
     padding: 1rem;
-  }
-
-  #how-it-work #video {
-    width: 80%;
-    height: 30%;
   }
 
   #pricing {
